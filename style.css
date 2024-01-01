@@ -5,13 +5,68 @@ html, body {
     flex-direction: column;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+p{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    color: white;
+}
+
 .header-background {
     background-color: #1F2937;
     flex: 1;
 }
 
 .content-background {
-    background-color: #ffffff;
+    background-color: white;
     flex: 2;
 }
 
+#header-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 200px 50px;
+}
+
+#header-logo {
+    color: white;
+}
+
+#header-content {
+    margin: 25px 200px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+#secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-image {
+    background-color: dimgrey;
+    color: white;
+    flex: 0 0 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
