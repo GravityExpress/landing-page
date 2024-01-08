@@ -146,6 +146,7 @@ li {
     font-weight: bold;
     justify-content: flex-end;
     text-align: right;
+    margin-right: 38px;
 }
 
 .quotes {
