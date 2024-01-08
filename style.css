@@ -199,3 +199,13 @@ li {
     font-size: 18px;
     color: #dfe4eb;
 }
+
+.footer {
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+#footer-text {
+    text-align: center;
+    color: white;
+}
