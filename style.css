@@ -74,7 +74,6 @@ li {
 
 .header-image {
     height: 250px;
-    /*min-width: 0;*/
     background-color: #6d747d;
     color: white;
     flex: 0 1 500px;
